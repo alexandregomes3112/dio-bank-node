@@ -1,0 +1,33 @@
+{
+  "name": "dio-bank-node",
+  "version": "1.0.0",
+  "description": "Example application proposed by the DIO platform, where we have a simple banking application running with NODE.js on the backend.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "node build/index.js",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandregomes3112/dio-bank-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandregomes3112/dio-bank-node/issues"
+  },
+  "homepage": "https://github.com/alexandregomes3112/dio-bank-node#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
