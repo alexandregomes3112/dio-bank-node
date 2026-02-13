@@ -44,7 +44,6 @@ npx tsc --init
 1. Configure tsconfig.json with the folowing parameters:
 
 ```
-    "rootDir": "./src",
     "outDir": "./build",
     "module": "nodenext",
     "target": "ES2020",
